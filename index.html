@@ -5,42 +5,32 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cover - Free Bulma template</title>
+    <title>Frank's Site</title>
     <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- Bulma Version 0.8.x-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/styles-navbar.css" />
+    <link rel="stylesheet" type="text/css" href="styles/styles-index.css" />
     <style type="text/css">
-        html,
         body {
             font-family: 'Open Sans';
         }
-
-        img {
-            padding: 5px;
-            border: 1px solid #ccc;
-        }
-        #main-section {
-            padding-left: 10%;
-            padding-right: 10%;
-        }
     </style>
 </head>
-
 <body>
-    <nav class="navbar is-fixed is-primary" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed" role="navigation" aria-label="main navigation" id="navbar">
         <div class="navbar-start">
-                <a class="navbar-item">
+                <a class="navbar-item navbar-text" id="navbar-item-1">
                     Home
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item navbar-text" id="navbar-item-2">
                     About
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item navbar-text" id="navbar-item-3">
                     Projects
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item navbar-text" id="navbar-item-4">
                     Resume
                 </a>
         </div>
@@ -48,7 +38,7 @@
     <section class="section" id="main-section">
         <div class="columns is-centered">
             <div class="column">
-                <div class="hero-body">
+                <div class="hero-body" id="subsection">
                     <div class="container has-text-centered">
                         <div class="columns is-vcentered">
                             <div class="column is-4">
@@ -57,13 +47,16 @@
                                 </figure>
                             </div>
                             <div class="column is-6 is-offset-1">
-                                <h1 class="title is-2">
+                                <h1 class="title is-2" id="hero-padding">
                                     Welcome to my page!
                                 </h1>
-                                <h2 class="subtitle is-4">
-                                    Let this cover page describe a product or service.
+                                <h2 class="subtitle is-5">
+                                    <p>
+                                    My name is Frank Sundstedt, and I'm a software developer.
+                                    I'm happiest when I'm developing, building, creating,
+                                    concoting, or experimenting. Enjoy my site!
+                                    </p>
                                 </h2>
-                                <br>
                                 <p class="has-text-centered">
                                     <a href="about.html" class="button is-medium is-info is-outlined">
                                         About
@@ -77,5 +70,4 @@
         </div>
     </section>
 </body>
-
 </html>

@@ -1,0 +1,17 @@
+img {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+#main-section {
+    padding-top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#subsection {
+    padding-top: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#hero-padding {
+    padding-bottom: 3%;
+}

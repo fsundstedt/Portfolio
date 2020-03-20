@@ -1,0 +1,30 @@
+.navbar-text {
+    color: white;
+}
+#navbar {
+    background-color: orangered;
+}
+#navbar-item-1 {
+    background-color: orangered;
+}
+#navbar-item-1:hover {
+    background-color: white;
+}
+#navbar-item-2 {
+    background-color: orangered;
+}
+#navbar-item-2:hover {
+    background-color: white;
+}
+#navbar-item-3 {
+    background-color: orangered;
+}
+#navbar-item-3:hover {
+    background-color: white;
+}
+#navbar-item-4 {
+    background-color: orangered;
+}
+#navbar-item-4:hover {
+    background-color: white;
+}
