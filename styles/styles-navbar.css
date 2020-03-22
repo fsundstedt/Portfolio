@@ -28,3 +28,8 @@
 #navbar-item-4:hover {
     background-color: white;
 }
+@media screen and (min-width: 600px)
+#navbar-start-flex {
+    justify-content: flex-start;
+    margin-right: auto;
+}

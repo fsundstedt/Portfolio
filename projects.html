@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Frank's Site</title>
     <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/bulma.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="styles/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="styles/styles-navbar.css" />
     <link rel="stylesheet" type="text/css" href="styles/styles-projects.css" />
 </head>
 <body>
-    <nav class="navbar is-fixed" role="navigation" aria-label="main navigation" id="navbar">
+    <nav class="navbar is-fixed is-vertical-center" role="navigation" aria-label="main navigation" id="navbar">
         <div class="navbar-start">
                 <a href="./index.html" class="navbar-item navbar-text" id="navbar-item-1">
                     Home
@@ -39,7 +39,7 @@
                     <h2 class="title is-3 has-text-centered">app.track</h2>
                     <div>
                         <p class="is-italic has-text-centered">
-                            app.track is an application designed to provide job-seekers in software development and related fields
+                            app.track is designed to provide job-seekers in software development and related fields
                             the ability to review the application process for specific companies. Users are able to create an account,
                             log in, write reviews, and read reviews posted by others.
                         </p>
@@ -66,14 +66,61 @@
                             <div class="content">
                                 <ul>
                                     <li>Uses Express templating for site structure</li>
-                                    <li>Uses pg-promise to utilize database connection and
-                                        run SQL queries
-                                    </li>
-                                    <li>Password hashing completed via bcrypt</li>
+                                    <li>Uses pg-promise to establish database connection, and
+                                        run SQL queries such as getting company data and
+                                        posting reviews</li>
+                                    <li>Secure password hashing and storage completed via bcrypt</li>
+                                    <li>Dynamic interface</li>
+                                    <li>Designed with Bulma framework</li>
                                 </ul>
+                                <figure class="image is-64x64">
+                                    <a><img src="./images/icons/GitHub-Icon.png" alt="Project Image"></a>
+                                </figure>
                             </div>
                         </div>
                     </div>
+                    <hr>
+                </div>
+                <div class="container">
+                    <h2 class="title is-3 has-text-centered">PokéFind</h2>
+                    <div>
+                        <p class="is-italic has-text-centered">
+                            Pokéfind is an application that provides statistics on every Pokemon character to date.
+                            It utilizes a search bar and has the option to randomly select a character.
+                        </p>
+                        <br>
+                    </div>
+                    <div class="container center-items">
+                        <a><image src="./images/icons/Javascript-Icon.png"></image></a>
+                        <a><image src="./images/icons/HTML5-Icon.png"></image></a>
+                        <a><image src="./images/icons/CSS3-Icon.png"></image></a>
+                        <a><image src="./images/icons/node-Icon.png"></image></a>
+                    </div>
+                    <br>
+                    <div class="columns">
+                        <div class="column">
+                            <figure class="image" id="project1-image">
+                                <img src="./images/projects/FE-Screenshot.gif" alt="Project Image">
+                            </figure>
+                        </div>
+                        <div class="column">
+                            <div class="title is-4 has-text-centered">
+                                Technical Features
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <li>Uses JavaScript Fetch functionality to manage responses</li>
+                                    <li>Connects to the PokéAPI site through multiple channels</li>
+                                    <li>Utilizes jQuery for DOM manipulation</li>
+                                    <li>Designed with Bootstrap framework</li>
+                                </ul>
+                                <figure class="image is-64x64">
+                                    <a href="https://github.com/fsundstedt/Pokefind"><img src="./images/icons/GitHub-Icon.png" alt="Project Image"></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
                 </div>
             </div>
         </div>
