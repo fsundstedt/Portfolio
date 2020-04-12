@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="styles/styles-projects.css" />
 </head>
 <body>
-    <nav class="navbar is-fixed is-vertical-center" role="navigation" aria-label="main navigation" id="navbar">
+    <nav class="navbar is-fixed" role="navigation" aria-label="main navigation" id="navbar">
         <div class="navbar-start">
                 <a href="./index.html" class="navbar-item navbar-text" id="navbar-item-1">
                     Home
@@ -22,10 +22,7 @@
                 <a href="./projects.html" class="navbar-item navbar-text" id="navbar-item-2">
                     Projects
                 </a>
-                <a href="./about.html" class="navbar-item navbar-text" id="navbar-item-3">
-                    About
-                </a>
-                <a href="./resume.html" class="navbar-item navbar-text" id="navbar-item-4">
+                <a href="./resume.txt" download target="_blank" class="navbar-item navbar-text" id="navbar-item-4">
                     Resume
                 </a>
         </div>
@@ -33,9 +30,8 @@
     <section class="section" id="main-section">
         <div class="columns">
             <div class="column is-three-fourths">
-                <h1 class="title is-2 has-text-centered">Projects</h1>
-                <hr>
-                <div class="container">
+                <h1 class="title is-2 has-text-centered" id="projects-title">Projects</h1>
+                <div class="container box">
                     <h2 class="title is-3 has-text-centered">app.track</h2>
                     <div>
                         <p class="is-italic has-text-centered">
@@ -46,11 +42,11 @@
                         <br>
                     </div>
                     <div class="container center-items">
-                        <a><image src="./images/icons/Javascript-Icon.png"></image></a>
-                        <a><image src="./images/icons/HTML5-Icon.png"></image></a>
-                        <a><image src="./images/icons/CSS3-Icon.png"></image></a>
-                        <a><image src="./images/icons/postgreSQL-Icon.png"></image></a>
-                        <a><image src="./images/icons/node-Icon.png"></image></a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><image src="./images/icons/Javascript-Icon.png"></image></a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><image src="./images/icons/HTML5-Icon.png"></image></a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade"><image src="./images/icons/CSS3-Icon.png"></image></a>
+                        <a href="https://www.postgresql.org/"><image src="./images/icons/postgreSQL-Icon.png"></image></a>
+                        <a href="https://nodejs.org/en/"><image src="./images/icons/node-Icon.png"></image></a>
                     </div>
                     <br>
                     <div class="columns">
@@ -74,14 +70,13 @@
                                     <li>Designed with Bulma framework</li>
                                 </ul>
                                 <figure class="image is-64x64">
-                                    <a><img src="./images/icons/GitHub-Icon.png" alt="Project Image"></a>
+                                    <a href="https://github.com/fsundstedt/App-Track"><img src="./images/icons/GitHub-Icon.png" alt="Project Image"></a>
                                 </figure>
                             </div>
                         </div>
                     </div>
-                    <hr>
                 </div>
-                <div class="container">
+                <div class="container box">
                     <h2 class="title is-3 has-text-centered">PokéFind</h2>
                     <div>
                         <p class="is-italic has-text-centered">
@@ -91,10 +86,10 @@
                         <br>
                     </div>
                     <div class="container center-items">
-                        <a><image src="./images/icons/Javascript-Icon.png"></image></a>
-                        <a><image src="./images/icons/HTML5-Icon.png"></image></a>
-                        <a><image src="./images/icons/CSS3-Icon.png"></image></a>
-                        <a><image src="./images/icons/node-Icon.png"></image></a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><image src="./images/icons/Javascript-Icon.png"></image></a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><image src="./images/icons/HTML5-Icon.png"></image></a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade"><image src="./images/icons/CSS3-Icon.png"></image></a>
+                        <a href="https://nodejs.org/en/"><image src="./images/icons/node-Icon.png"></image></a>
                     </div>
                     <br>
                     <div class="columns">
@@ -120,10 +115,45 @@
                             </div>
                         </div>
                     </div>
-                    <hr>
+                </div>
+                <div class="container box">
+                    <h2 class="title is-3 has-text-centered">Llamarita's Taco Adventure</h2>
+                    <div>
+                        <p class="is-italic has-text-centered">
+                            Llamarita's Taco Adventure is a game built using the Pygame library. Players move the character around the platform
+                            in order to avoid falling cacti and collect Margaritas to win, each of which increases the number of falling cacti.
+                            Tacos are collected as bonus points.
+                        </p>
+                        <br>
+                    </div>
+                    <div class="container center-items">
+                        <a href="https://www.python.org/"><image src="./images/icons/Python-Icon.png"></image></a>
+                    </div>
+                    <br>
+                    <div class="columns">
+                        <div class="column">
+                            <figure class="image" id="project1-image">
+                                <img src="./images/projects/Llama-Screenshot.png" alt="Project Image">
+                            </figure>
+                        </div>
+                        <div class="column">
+                            <div class="title is-4 has-text-centered">
+                                Technical Features
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <li>Built with Python and utilizes the Pygame library</li>
+                                    <li>Difficulty increases as score increases</li>
+                                    <li>Features audio track and sound effects</li>
+                                </ul>
+                                <figure class="image is-64x64">
+                                    <a href="https://github.com/fsundstedt/Llamarita-Imbibe-The-Tacoing"><img src="./images/icons/GitHub-Icon.png" alt="Project Image"></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 </body>

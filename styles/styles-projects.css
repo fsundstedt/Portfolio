@@ -1,6 +1,14 @@
 .center-items {
     text-align: center;
 }
+#main-section {
+    padding-top: 3%;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+#projects-title {
+    padding: 1%;
+    padding-bottom: 2%;
+}
 #project1-image {
     text-align: center;
     width: 60%;

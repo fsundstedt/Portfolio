@@ -28,8 +28,15 @@
 #navbar-item-4:hover {
     background-color: white;
 }
-@media screen and (min-width: 600px)
-#navbar-start-flex {
-    justify-content: flex-start;
-    margin-right: auto;
+#footer {
+    position: absolute;
+    width: 100%;
+    background-color: orangered;
+    padding: 0.4%;
+    padding-left: 1%;
+    bottom: auto;
 }
+#footer-image {
+    border: 0px;
+}
+

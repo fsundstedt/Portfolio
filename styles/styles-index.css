@@ -15,3 +15,11 @@ img {
 #hero-padding {
     padding-bottom: 3%;
 }
+
+#profileImage {
+    max-width: 256px;
+}
+
+#indexDescription {
+    margin-left: 0%;
+}
