@@ -18,6 +18,7 @@ img {
 
 #profileImage {
     max-width: 256px;
+    margin-left: auto;
 }
 
 #indexDescription {
